@@ -1,5 +1,5 @@
 # The AirBnB Clone Project
-![AirBnB Logo](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230508%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230508T204905Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ff6e357c6eb7e77f178c4c540cfddc7e56e451ae7822420c9f1767ed10bdd411)
+![AirBnB Logo](hnbnb.png)
 
 ## Project Description
 This project is an Airbnb clone, which aims to replicate the core functionality of the Airbnb website. The project will be developed using Python, JSON for file storage, My SQL, Flask web framework, Restful API, HTML and Javascript, and will implement features such as user authentication, property search and booking, messaging, and payment processing.
