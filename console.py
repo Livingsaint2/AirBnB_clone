@@ -6,6 +6,7 @@ import cmd
 from models.base_model import BaseModel
 from models import storage
 import json
+import re
 
 class HBNBCommand(cmd.Cmd):
       """This is the class of the command interptreter"""
