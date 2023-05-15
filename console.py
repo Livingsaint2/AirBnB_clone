@@ -147,7 +147,7 @@ class HBNBCommand(cmd.Cmd):
                   elif cast:
                       try:
                          value = cast(value)
-                      except VAlueError:
+                      except ValueError:
                         pass
                   setattr(storage.all()[key], attribute, value)
                   storage.all()[key].save()
