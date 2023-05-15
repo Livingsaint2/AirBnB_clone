@@ -136,7 +136,7 @@ class HBNBCommand(cmd.Cmd):
                   if not re.search('^"."$', value):
                       if '.' in value:
                           cast = float
-                      else;
+                      else:
                           cast = int
                   else:
                       value = value.replace('"', '')
