@@ -36,6 +36,9 @@ class HBNBCommand(cmd.Cmd):
 
           elif line not in storage.classes():
               print("** class doesn't exist **")
+                  
+          elif not issubclass(storage.classes()[line], BaseModel):
+            print("** class is not subclass of BaseModel **")
 
           else:
               instance = storage.classes()[line]()
