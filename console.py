@@ -55,7 +55,7 @@ class HBNBCommand(cmd.Cmd):
                  obj_key = "{}.{}".format(class_name, obj_id)
                  obj_dict = storage.all()
                  if class_name not in storage.classes():
-                     print("** class name doesn't exist**")
+                     print("** class name doesn't exist **")
                  elif len(args) < 2:
                      print("** instance id is missing **")
                  elif obj_key not in obj_dict:
