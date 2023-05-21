@@ -52,8 +52,10 @@ class FileStorage:
           """returns the dict of valid classes"""
 
           from models.base_model import BaseModel
+          from models.user import User
 
-          classes = {"BaseModel": BaseModel}
+          classes = {"BaseModel": BaseModel,
+                     "User": User}
 
           return classes
 
